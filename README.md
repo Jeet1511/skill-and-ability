@@ -24,16 +24,3 @@ powershell -ExecutionPolicy Bypass -File .\scripts\install-global.ps1
 - Skills/tools/agent repos are cloned automatically.
 - Global system is initialized (`system/init.js`).
 
-## Publishing to GitHub
-
-After creating a new GitHub repo, run:
-
-```powershell
-cd C:\Users\Jeet\Documents\GitHub\ai-system-global-setup
-git init
-git add .
-git commit -m "Initial global AI system setup"
-git branch -M main
-git remote add origin <YOUR_NEW_REPO_URL>
-git push -u origin main
-```

@@ -1,0 +1,14 @@
+{
+  "name": "ai-system-core",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "load-skills": "node ./loadSkills.js",
+    "init": "node ./init.js",
+    "normalize": "node ./normalize-skills.mjs",
+    "generate-context": "node ./generateContext.js",
+    "context": "node ./generate-context.mjs",
+    "build": "npm run init && npm run context"
+  }
+}

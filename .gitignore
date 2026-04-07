@@ -1,0 +1,16 @@
+node_modules/
+**/node_modules/
+.ai/
+**/.ai/
+.DS_Store
+*.log
+cache/*
+skills/*
+tools/*
+!skills/.gitkeep
+!tools/.gitkeep
+!cache/.gitkeep
+system/skill-registry.json
+system/context.md
+system/status.json
+memory/shared-memory.local.json
